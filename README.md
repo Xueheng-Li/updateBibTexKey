@@ -1,4 +1,4 @@
-# Update BibTeX Citations in LaTeX Files
+# Update BibTeX Citation Keys in LaTeX Files
 
 Managing citations in academic writing can be a tedious task, especially when updating references to match new BibTeX entries. This script automates the process of updating citation keys in LaTeX `.tex` files, ensuring that your references are always up-to-date with the latest BibTeX entries. By using fuzzy string matching, it accurately matches old citation keys to new ones based on paper titles, saving researchers valuable time and effort.
 
