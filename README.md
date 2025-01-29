@@ -2,6 +2,8 @@
 
 This script updates the citation keys in a LaTeX `.tex` file based on new BibTeX entries. It matches old citation keys to new ones using fuzzy string matching on the titles of the papers.
 
+该脚本根据新的 BibTeX 条目更新 LaTeX `.tex` 文件中的引用键。它使用模糊字符串匹配旧引用键和新引用键，基于论文的标题进行匹配。中文说明请见文末。
+
 ## Requirements
 
 - Python 3.x
@@ -67,11 +69,9 @@ pip install fuzzywuzzy bibtexparser
 
 Feel free to modify the script as needed for your specific use case.
 
-
+---
 
 # 中文说明
-
-该脚本根据新的 BibTeX 条目更新 LaTeX `.tex` 文件中的引用键。它使用模糊字符串匹配旧引用键和新引用键，基于论文的标题进行匹配。
 
 ## 要求
 
