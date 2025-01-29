@@ -21,26 +21,22 @@ pip install fuzzywuzzy bibtexparser
    Clone the repository from GitHub:
 
    ```sh
-   git clone https://github.com/Xueheng-Li/updatebib.git
-   cd updatebib
+   git clone https://github.com/yourusername/update-bib-citations.git
+   cd update-bib-citations
    ```
 
-2. **Set the old BibTeX files, new BibTeX file, and the LaTeX file to update:**
+2. **Set the paths to your files:**
 
-   Edit the `main` function call in the script to specify the paths to your old BibTeX files, new BibTeX file, and the LaTeX file you want to update.
+   Edit the path settings at the start of the script to specify the paths to your old BibTeX files, new BibTeX file, and the LaTeX file you want to update.
 
    ```python
-   if __name__ == '__main__':
-       # old_bibs are the old bib files, new_bib is the new bib file, and tex_file_to_update is the tex file to update
-       old_bibs = [
-           'path/to/old_bib1.bib',
-           'path/to/old_bib2.bib',
-       ]
-       new_bib = 'path/to/new_bib.bib'
-       tex_file_to_update = 'path/to/tex_file.tex'
-
-       # Run the main function
-       main(old_bibs, new_bib, tex_file_to_update)
+   # old_bibs are the old bib files, new_bib is the new bib file, and tex_file_to_update is the tex file to update
+   old_bibs = [
+       'path/to/old_bib1.bib',
+       'path/to/old_bib2.bib',
+   ]
+   new_bib = 'path/to/new_bib.bib'
+   tex_file_to_update = 'path/to/tex_file.tex'
    ```
 
 3. **Run the script:**
