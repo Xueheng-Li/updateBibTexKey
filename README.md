@@ -4,9 +4,9 @@ Managing citations in academic writing can be a tedious task, especially when up
 
 在学术写作中管理引用可能是一项繁琐的任务，尤其是在更改了Bibtex文件并改变了原来的引用键之后。该脚本自动化了在 LaTeX `.tex` 文件中更新引用键的过程，确保您的引用始终与最新的 BibTeX 条目保持一致。通过使用模糊字符串匹配，它可以根据论文标题准确地将旧引用键匹配到新的引用键，从而为研究人员节省宝贵的时间和精力。中文说明在文末。
 
-WARNING: Create a backup of your paper latex file before running the script! Create a backup of your paper latex file before running the script! Create a backup of your paper latex file before running the script!
+*WARNING: Create a backup of your paper latex file before running the script! Create a backup of your paper latex file before running the script! Create a backup of your paper latex file before running the script!*
 
-注意：运行脚本前务必备份你的论文latex文件！运行脚本前务必备份你的论文latex文件！运行脚本前务必备份你的论文latex文件！
+*注意：运行脚本前务必备份你的论文latex文件！运行脚本前务必备份你的论文latex文件！运行脚本前务必备份你的论文latex文件！*
 
 ## Requirements
 
