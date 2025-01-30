@@ -88,6 +88,7 @@ def update_tex_file(tex_file, key_mapping):
         r'\\cite{([^}]*)}', 
         r'\\citep{([^}]*)}', 
         r'\\citet{([^}]*)}', 
+        r'\\citealp{([^}]*)}',
         r'\\citeauthor{([^}]*)}', 
         r'\\citeyear{([^}]*)}',
         r'\\citep\[[^\]]*\]{([^}]*)}',  # Pattern for \citep with optional text
