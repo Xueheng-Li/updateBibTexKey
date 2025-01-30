@@ -23,8 +23,8 @@ pip install fuzzywuzzy bibtexparser
    Clone the repository from GitHub:
 
    ```sh
-   git clone https://github.com/yourusername/update-bib-citations.git
-   cd update-bib-citations
+   git clone https://github.com/Xueheng-Li/updateBibTexKey.git
+   cd updateBibTexKey
    ```
 
 2. **Set the paths to your files:**
