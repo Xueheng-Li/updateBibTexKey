@@ -98,8 +98,8 @@ pip install fuzzywuzzy bibtexparser
    从 GitHub 克隆仓库：
 
    ```sh
-   git clone https://github.com/yourusername/update-bib-citations.git
-   cd update-bib-citations
+   git clone https://github.com/Xueheng-Li/updateBibTexKey.git
+   cd updateBibTexKey
    ```
 
 2. **设置文件路径：**
