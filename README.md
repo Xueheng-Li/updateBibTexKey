@@ -59,17 +59,9 @@ python update_bib.py
 - ⚖️ Default matching threshold is 90%
 - 🛠️ Feel free to customize the script!
 
-# 中文说明 🇨🇳
-
-该脚本根据新的 BibTeX 条目更新 LaTeX `.tex` 文件中的引用键。它使用模糊字符串匹配旧引用键和新引用键,基于论文的标题进行匹配。 🔄
-
-[... rest of Chinese content with similar emoji enhancements ...]
-
-Remember to backup your files before running! 💾 祝您使用愉快! 🎉
-
 ---
 
-# 中文说明
+# 中文说明 🇨🇳
 
 该脚本根据新的 BibTeX 条目更新 LaTeX `.tex` 文件中的引用键。它使用模糊字符串匹配旧引用键和新引用键，基于论文的标题进行匹配。
 
@@ -137,3 +129,5 @@ pip install fuzzywuzzy bibtexparser
 - `create_key_mapping` 和 `create_key_mapping_multi` 函数中的 `bar` 参数设置模糊匹配比率的阈值（默认是 90%）。
 
 请根据您的具体用例自由修改脚本。
+
+Remember to backup your files before running! 💾 祝您使用愉快! 🎉
